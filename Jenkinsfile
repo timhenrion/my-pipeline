@@ -1,6 +1,5 @@
 pipeline {
-    agent {
-        docker {
+    agent { docker {
             image 'ruby:3.3.2-alpine3.20'
         }
     }
