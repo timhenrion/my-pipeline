@@ -7,6 +7,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'ruby --version'
+                sh 'ruby --version'
             }
         }
     }
